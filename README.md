@@ -1,5 +1,7 @@
 Simple plugin with command /fly, has an config to edit messages from plugin.
 
+Link to the plugin: https://www.spigotmc.org/resources/simple-fly-plugin.115090/
+
 # Commands
 ### /fly
 - Gives the player who typed the command the ability to fly
