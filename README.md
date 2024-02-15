@@ -2,10 +2,10 @@ Simple plugin with command /fly, has an config to edit messages from plugin.
 
 # Commands
 ### /fly
-- Give ability to fly to the player who typed the command
+- Gives the player who typed the command the ability to fly
 - Requires permission: flyPlugin.fly
 ### /fly username
-- Give ability to fly to the player provided
+- Gives the player provided the ability to fly
 - Requires permission: flyPlugin.flyToOthers
 ### /fly-config function
 - ### Edit FlyPlugin config from game:
