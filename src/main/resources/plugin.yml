@@ -1,0 +1,22 @@
+name: FlyPlugin
+version: '${project.version}'
+main: ximronno.flyplugin.FlyPlugin
+api-version: '1.19'
+description: Simple Fly Plugin By  Ximronno
+authors: [Ximronno]
+commands:
+  fly:
+    description: on/off fly on yourself
+    permission: flyPlugin.fly
+    usage: /<command> <player>
+  fly-config:
+    description: command to use config in FlyPlugin
+    permission: flyPlugin.config
+    usage: /<command> <method>
+permissions:
+  flyPlugin.fly:
+    default: op
+  flyPlugin.flyToOthers:
+    default: op
+  flyPlugin.config:
+    default: op
